@@ -75,7 +75,7 @@ const developers = ref<Developer[]>([
                     </DialogContent>
                 </Dialog>
 
-                <a href="https://github.com/vladislav2251/weatherApp" :class="cn(buttonVariants({ variant: 'ghost' }))" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/vladislav2251/Weather-App" :class="cn(buttonVariants({ variant: 'ghost' }))" rel="noopener noreferrer" target="_blank">
                     <LucideGithub />
                     <span>GitHub</span>
                 </a>
