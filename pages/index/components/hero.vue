@@ -45,7 +45,6 @@ async function checkWeather() {
         <Container>
             <div class="flex h-28 flex-col items-center justify-center gap-2">
                 <div class="flex gap-2">
-                    <IInput v-model="searchQuery" placeholder="Enter the location" container-class="w-full max-w-sm" />
                     <RippleButton @click="checkWeather" :disabled="loading">
                         {{ loading ? "Checking..." : "Check" }}
                     </RippleButton>
